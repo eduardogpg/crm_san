@@ -439,10 +439,12 @@ function ($) {
         this.window = $(window),
         this.config = {},
         // styles
+        
         this.defaultBSStyle = $("#bs-default-stylesheet"),
         this.defaultAppStyle = $("#app-default-stylesheet"),
-        this.darkBSStyle = $("#bs-dark-stylesheet"),
-        this.darkAppStyle = $("#app-dark-stylesheet");
+        
+        this.darkBSStyle = $("#bs-default-stylesheet"),
+        this.darkAppStyle = $("#app-default-stylesheet");
     };
 
     /**
@@ -459,6 +461,7 @@ function ($) {
      * @param {*} config 
      */
     LayoutThemeApp.prototype.updateConfig = function(param, config) {
+
         var newObj = {};
         if (typeof config === 'object' && config !== null) {
             var originalParam = this.config[param];

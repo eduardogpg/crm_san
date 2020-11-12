@@ -346,7 +346,7 @@ body[data-sidebar-size="compact"]:not([data-sidebar-size="condensed"]) .left-sid
     background-color: #323a46; }
 
 body[data-sidebar-color="dark"] .logo-box {
-  background-color: #333644; }
+  background-color: #ffffff; }
   body[data-sidebar-color="dark"] .logo-box .logo-dark {
     display: none; }
   body[data-sidebar-color="dark"] .logo-box .logo-light {
