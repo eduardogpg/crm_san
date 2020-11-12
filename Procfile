@@ -1,0 +1,1 @@
+web: gunicorn crm_san.wsgi --log-file -
